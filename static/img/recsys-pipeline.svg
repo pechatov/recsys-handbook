@@ -1,0 +1,26 @@
+<svg width="760" height="460" viewBox="0 0 760 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Пайплайн рекомендательной системы</title>
+  <desc id="desc">Схема от событий пользователя до ранжирования и интерфейса.</desc>
+  <rect width="760" height="460" rx="28" fill="#F8FAFC"/>
+  <rect x="48" y="58" width="180" height="92" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <rect x="290" y="58" width="180" height="92" rx="12" fill="#CCFBF1" stroke="#0F766E" stroke-width="2"/>
+  <rect x="532" y="58" width="180" height="92" rx="12" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+  <rect x="168" y="238" width="180" height="92" rx="12" fill="#FCE7F3" stroke="#BE185D" stroke-width="2"/>
+  <rect x="412" y="238" width="180" height="92" rx="12" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+  <path d="M228 104H290" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M470 104H532" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M622 150C622 204 536 210 501 238" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M258 238C221 208 138 204 138 150" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M348 284H412" stroke="#64748B" stroke-width="4" stroke-linecap="round"/>
+  <text x="138" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1E3A8A">События</text>
+  <text x="138" y="121" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#1E3A8A">клики, покупки, оценки</text>
+  <text x="380" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#115E59">Признаки</text>
+  <text x="380" y="121" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#115E59">users, items, context</text>
+  <text x="622" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#92400E">Retrieval</text>
+  <text x="622" y="121" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#92400E">кандидаты</text>
+  <text x="258" y="274" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#9D174D">Метрики</text>
+  <text x="258" y="301" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#9D174D">offline и online</text>
+  <text x="502" y="274" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#5B21B6">Ranking</text>
+  <text x="502" y="301" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5B21B6">скоринг и reranking</text>
+  <text x="380" y="394" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#334155">Рекомендации в продукте</text>
+</svg>
