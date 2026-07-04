@@ -47,6 +47,7 @@ const sidebars: SidebarsConfig = {
         'ranking/gbdt-ranking',
         'ranking/neural-ranking',
         'ranking/multitask-and-value',
+        'ranking/uplift-and-economics',
       ],
     },
     {
