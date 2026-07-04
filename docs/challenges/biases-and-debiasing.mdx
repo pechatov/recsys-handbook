@@ -1,0 +1,26 @@
+---
+sidebar_position: 2
+---
+
+# 7.2. Смещения и дебиасинг
+
+:::note[Черновик]
+Это заглушка: ниже зафиксирован план содержания лекции. Текст будет написан
+позже.
+:::
+
+## Что должно быть в лекции
+
+- Каталог смещений: position, presentation, selection, exposure, popularity,
+  conformity bias — откуда берётся каждое.
+- Почему логи — не ground truth: missing-not-at-random природа фидбека,
+  формализация.
+- Position bias подробно: клик-модели (position-based model, cascade model),
+  оценка propensity по логам и через рандомизацию.
+- Counterfactual learning to rank: inverse propensity scoring, IPS-лоссы,
+  проблема дисперсии, clipping.
+- Popularity bias: диагностика, регуляризация, перевзвешивание, последствия
+  для длинного хвоста.
+- Несмещённая офлайн-оценка: как сравнивать модели по смещённым логам.
+- Практика: находим position bias в логах и обучаем unbiased-ранкер, сравнивая
+  с наивным.
